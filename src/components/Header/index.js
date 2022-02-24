@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-      <Header>
+      <header>
           <Link className="logo" to="/">Filmaria</Link>
-          <Link className="favoritos" to="/">Salvos</Link>
-      </Header>
+          <Link className="favoritos" to="/favoritos">Salvos</Link>
+      </header>
     );
   }
   
